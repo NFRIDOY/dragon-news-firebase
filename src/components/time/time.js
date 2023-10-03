@@ -13,6 +13,9 @@ const year = today.getFullYear();
 let month = today.getMonth(); // Months start at 0!
 let day = today.getDate();
 let dayOfWeek = today.getDay(); // Day
+let hour = today.getHours();
+let minute = today.getMinutes();
+let second = today.getSeconds();
 
 
 
@@ -35,4 +38,4 @@ console.log(dayOfWeek);
 // console.log(mounthNames.at(thisMonth));
 // console.log(typeof (thisMonth));
 
-export default {thisDayOfWeek, day, thisMonthName, year}
+export default {thisDayOfWeek, day, thisMonthName, year, hour, minute, second}

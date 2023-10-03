@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar() {
 
     return (
-        <div className="max-w-3xl ml-auto mr-24 font-poppins my-5">
+        <div className="max-w-3xl ml-auto mr-28 font-poppins my-5">
             <div className="flex justify-between font-semibold ">
                 <ol className="flex gap-4">
                     <NavLink
