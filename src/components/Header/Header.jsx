@@ -33,7 +33,10 @@ export default function Header() {
     return (
         <div>
             <header className="text-center space-y-4">
-                <h1 style={{ fontFamily: "'old-english-text-mt-regular', sans-serif" }} className="text-6xl">The Dragon News</h1>
+                {/* <h1 style={{ fontFamily: "'old-english-text-mt-regular', sans-serif" }} className="text-6xl">The Dragon News</h1> */}
+                <div >
+                    <img className="mx-auto pt-4" src="../../../src/assets/logo.png" alt="" />
+                </div>
                 <h4 className="text-[18px]">Journalism Without Fear or Favour</h4>
                 <h3 className="text-xl text-gray-500"><time>{
                     thisDayOfWeek + ", " + " " + thisMonthName + " " + day + ", " + year
