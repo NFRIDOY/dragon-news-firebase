@@ -12,6 +12,8 @@ console.log(today);
 const year = today.getFullYear();
 let month = today.getMonth(); // Months start at 0!
 let day = today.getDate();
+let dayOfWeek = today.getDay(); // Day
+
 
 
 
@@ -20,12 +22,17 @@ const mounthNames = ["January", "February", "March", "April", "May", "June", "Ju
 let thisMonth = parseInt(month);
 // console.log(month);
 let thisMonthName = mounthNames.at(thisMonth)
+const dayOfWeekNames = ["Sunday", "Monday", "Tueday", "Wednesday", "Thuday", "Friday", "Satday"] 
 
-// const 
+const thisDayOfWeek = dayOfWeekNames.at(dayOfWeek)
+
+console.log(dayOfWeek);
+
+console.log(dayOfWeek);
 
 // console.log(mounthNames.at(0));
 // console.log(mounthNames.at(month));
 // console.log(mounthNames.at(thisMonth));
 // console.log(typeof (thisMonth));
 
-export default {day, thisMonthName, year}
+export default {thisDayOfWeek, day, thisMonthName, year}
