@@ -5,7 +5,7 @@ import Header from "../components/Header/Header";
 
 export default function Root() {
     return (
-        <div>
+        <div className="font-poppins">
             <Header></Header>
             <Navbar></Navbar>
             <Outlet></Outlet>

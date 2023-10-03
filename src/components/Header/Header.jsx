@@ -2,6 +2,8 @@
 
 export default function Header() {
     return (
-        <div>Header</div>
+        <div>
+            <h1 style={{fontFamily: "'old-english-text-mt-regular', sans-serif"}}>The Dragon News</h1>
+        </div>
     )
 }
