@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export default function LeftSection() {
     return (
@@ -8,9 +8,6 @@ export default function LeftSection() {
                 <div>
                     <h2>National News</h2>
                     <ol>
-                        {
-
-                        }
                     </ol>
                 </div>
             </section>
